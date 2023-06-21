@@ -1,0 +1,278 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    position: relative;
+}
+
+body .content {
+    background-color: #171C23;
+    height: 300vh;
+    width: 100%;
+    /* overflow: hidden; */
+}
+
+body .content nav {
+    display: flex;
+    background-color: #14171B;
+    height: 70px;
+    align-items: center;
+    padding-left: 80px;
+}
+
+body .content nav .judul-nav {
+    color: #DEC800;
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: bold;
+}
+body .content nav .link-nav {
+    width: 390px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 70px;
+}
+
+body .content nav .link-nav a{
+    text-decoration: none;
+    color: #DEC800;
+    font-family: 'Poppins';
+}
+
+body .content nav .logo-sosmed-nav {
+    width: 260px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+body .content nav .logo-sosmed-nav a i {
+    font-size: 26px;
+    color: white;
+}
+
+body .content nav .login-nav button {
+    padding: 10px 25px;
+    background: none;
+    outline: none;
+    border: 2px solid #DEC800;
+    color: #DEC800;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
+body .content .content-role {
+    display: flex;
+    justify-content: center;
+    padding: 150px 0px 200px 0px;
+    width: 100%;
+}
+
+body .content .content-role .content-kiri {
+    width: 50%;
+    text-align: left;
+    padding: 0px 0px 0px 200px;
+    color: white;
+    font-family: 'Poppins';
+}
+
+body .content .content-role .content-kiri .role {
+        font-size: 35px;
+        font-weight: bold;
+        color: #DEC800;
+}
+
+body .content .content-role .content-kiri .desc {
+    width: 450px;
+    margin-bottom: 40px;
+}
+
+body .content .content-role .content-kiri .button-more button{
+    padding: 10px 30px;
+    background-color: #DEC800;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+body .content .content-role .content-kanan {
+    width: 50%;
+    /* background-color: #DEC800; */
+    position: relative;
+}
+body .content .content-role .content-kanan img {
+    position: absolute;
+}
+
+body .content .content-role .content-kanan img.profil{
+    width: 411px;
+    height: 434px;
+    top: -100px;
+    z-index: 3;
+    left: 35px;
+}
+
+body .content .content-role .content-kanan img.ellipse {
+    width: 461px;
+    height: 414px;
+    top: -60px;
+    left: -10px;
+    z-index: 1;
+}
+
+body .content .content-role .content-kanan img.design1 {
+    top: -60px;
+    left: 300px;
+    width: 90px;
+    z-index: 2;
+}
+
+body .content .content-role .content-kanan img.design2 {
+    width: 80px;
+    bottom: -100px;
+    left: -60px;
+}
+
+body img.design3 {
+    left: 0;
+    position: absolute;
+}
+
+body .content .keahlian {
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+body .content .keahlian .title h1{
+    text-align: center;
+}
+
+body .content .keahlian .title img.garis{
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+body .content .keahlian .kategori-role {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    margin: auto;
+}
+
+body .content .keahlian .kategori-role .kategori {
+    width: 300px;
+    /* background-color: #DEC800; */
+    height: 280px;
+    padding: 40px 0px 0px 0px;
+}
+
+body .content .keahlian .kategori-role .kategori.dua {
+    border: 1px solid #FFFFFF;
+    box-shadow: 1.5px 4px 4px 1.5px #FFFFFF;
+}
+
+body .content .keahlian .kategori-role .kategori img {
+    width: 100px;
+}
+
+body .content .keahlian .kategori-role .kategori .title {
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 20px 0px;
+}
+
+body .content .keahlian .kategori-role .kategori button.more{
+    padding: 10px 30px;
+    border-radius: 4px;
+    outline: none;
+    background: #DEC800;
+}
+
+body .content .desc-skil {
+    background: url("../img/img-design/background.png");
+    width: 100%;
+    height: 600px;
+    /* background-color: #DEC800; */
+    font-family: 'Poppins';
+    padding: 70px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body .content .desc-skil .title {
+    color: white;
+    margin-left: 100px;
+}
+
+body .content .desc-skil .title img {
+    width: 250px;
+}
+
+body .content .desc-skil .skil-about {
+    display: flex;
+    justify-content: center;
+}
+
+body .content .desc-skil .skil-about .content-kiri {
+    width: 50%;
+    padding: 100px 0px 0px 40px;
+    color: white;
+}
+
+body .content .desc-skil .skil-about .content-kanan {
+    width: 50%;
+    color: white;
+    padding: 100px 0px 0px 40px;
+}
+
+body .content .desc-skil .skil-about .content-kiri .container-skil .rasio-button {
+    position: relative;
+}
+
+body .content .desc-skil .skil-about .content-kiri .container-skil .rasio-1 {
+    width: 500px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #dadada;
+    position: relative;
+    margin: 20px 0px;
+}
+
+body .content .desc-skil .skil-about .content-kiri .container-skil .rasio-2 {
+    width: 400px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: #DEC800;
+    position: relative;
+    top: 0px;
+    position: absolute;
+}
+
+body .content .desc-skil .skil-about .content-kanan {
+    width: 50%;
+    padding: 120px 0px 0px 0px;
+}
+
+body .content .container-content-role {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: relative;
+    width: 100%;
+}
+
+
+body .content .container-role-content {
+    overflow: hidden;
+}
+
+/* body .content .container-content-role .content-role {
+
+} */

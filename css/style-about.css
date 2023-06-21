@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Rubik&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body  nav {
+  display: flex;
+  background-color: #14171B;
+  height: 70px;
+  align-items: center;
+  padding-left: 80px;
+}
+
+body  nav .judul-nav {
+  color: #DEC800;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-weight: bold;
+}
+body  nav .link-nav {
+  width: 390px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 70px;
+}
+
+body  nav .link-nav a{
+  text-decoration: none;
+  color: #DEC800;
+  font-family: 'Poppins';
+}
+
+body  nav .logo-sosmed-nav {
+  width: 260px;
+  margin-left: 80px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+body  nav .logo-sosmed-nav a i {
+  font-size: 26px;
+  color: white;
+}
+
+body  nav .login-nav button {
+  padding: 10px 25px;
+  background: none;
+  outline: none;
+  border: 2px solid #DEC800;
+  color: #DEC800;
+  border-radius: 10px;
+  margin-left: 100px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(rgba(31,32,37,1), rgba(34, 38, 41, .6)), url(../img/img-design/background2.jpg);
+  background-size: cover;
+}
+
+.header .container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.header .container-img {
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  z-index: 1;
+  bottom: -25px;
+  border: 10px solid #25AB91;
+  box-shadow: 0 0 0 25px rgba(37, 171, 145, .3);
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  overflow: hidden;
+}
+
+.header .container-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.header .container-ident {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #B1B2B6;
+  position: absolute;
+  flex-direction: column;
+  top: -85px;
+  width: 380px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: #23262F;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.header .container-ident h5 {
+  margin-top: 125px;
+  margin-bottom: 5px;
+}
+
+.header .container-ident span {
+  font-size: 14px;
+}
+
+.header .container-ident .container-sosmed {
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.header .container-ident .container-sosmed .fc {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  align-items: center;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header .container-ident .container-sosmed .twt {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  align-items: center;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.header .container-ident .container-sosmed .ig {
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  font-size: 16px;
+  align-items: center;
+  border: 1px solid #fff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.about , .skil{
+  display: flex;
+  /* align-items: center; */
+  height: 70vh;
+  flex-direction: column;
+  padding: 10px 100px;
+  background-color: #1D2124;
+  color: #DDDFE3;
+}
+
+.about .title-about{
+  display: flex;
+  margin-top: 70px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skil .title-skil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.pendidikan .container-pendidikan .title-pendidikan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.about .title-about i , .skil .title-skil i ,.pendidikan .container-pendidikan .title-pendidikan i{
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #1572C9;
+}
+
+.about .title-about h1 , .skil .title-skil h1 , .pendidikan .container-pendidikan .title-pendidikan h1{
+  font-size: 35px;
+  margin-bottom: 5px;
+}
+
+.about .title-about .garis , .skil .title-skil .garis , .pendidikan .container-pendidikan .title-pendidikan .garis{
+  width: 50px;
+  height: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.about .title-about .garis .satu , .skil .title-skil .garis .satu , .pendidikan .container-pendidikan .title-pendidikan .garis .satu{
+  /* margin-top: 5px; */
+  display: block;
+  width: 70px;
+  height: 2px;
+  background-color: #25AB91;
+}
+
+.about .title-about .garis .dua, .skil .title-skil .garis .dua , .pendidikan .container-pendidikan .title-pendidikan .garis .dua{
+  margin-top: 5px;
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #25AB91;
+}
+
+.about .kenal {
+  font-weight: 500;
+}
+
+.about .kenal span {
+  color: #25AB91;
+}
+
+.about .container-details {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  padding-right: 100px;
+}
+
+.about .container-details .personal-detail {
+  width: 40%;
+  /* background-color: white; */
+}
+
+.about .container-details .personal-detail .container-data{
+  margin-top: 20px;
+  width: 80%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  font-weight: 500;
+}
+
+.about .container-details .personal-detail .container-data .color{
+  color: #25AB91;
+}
+
+.about .container-details .personal-detail .container-data .job{
+  background-color: #25AB91;
+  padding: 5px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.about .container-details .interest {
+  width: 40%;
+}
+
+.about .container-details .interest .container-items {
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+.about .container-details .interest .container-items .container-item {
+  background-color: #23262F;
+  padding: 15px;
+  display: flex;
+  border-radius: 5px;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, .3);
+  text-transform: uppercase;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.about .container-details .interest .container-items .container-item i{
+  font-size: 25px;
+  margin-bottom: 7px;
+}
+
+.skil .container-skil {
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+  justify-content: space-between;
+}
+
+.skil .container-skil-satu, .skil .container-skil-dua {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.skil .container-skil .skil-logo .logo-skil {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #dadada;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+.skil .container-skil .skil-logo {
+  position: relative;
+}
+
+.skil .container-skil .skil-logo .rasio-skil-1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: none;
+  border: 5px solid pink;
+  top: 0px;
+}
+
+.pendidikan {
+  background-color: #1D2124;
+  color: white;
+}
+
+.pendidikan .container-pendidikan {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Poppins';
+}
+
+.pendidikan .container-pendidikan .content-pendidikan {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .content-kiri , .pendidikan .container-pendidikan .content-pendidikan .content-kanan{
+  width: 40%;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content {
+  display: flex;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kiri {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10px;
+  margin-right: 20px;
+  align-items: center;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kiri .logo {
+  background-color: #25AB91;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kiri hr {
+  width: 3px;
+  height: 120px;
+  outline: none;
+  background-color: #25AB91;
+  border: none;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kanan {
+  padding-top: 15px;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kanan .title-content {
+  margin-bottom: 10px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.pendidikan .container-pendidikan .content-pendidikan .card-content .card-content-kanan .title-content span {
+  background-color: #14171B;
+  border-radius: 8px;
+  padding: 0px 20px;
+}
